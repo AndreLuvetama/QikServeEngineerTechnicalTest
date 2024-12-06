@@ -1,9 +1,10 @@
 package com.qikserve.services;
 
-import com.qikserve.models.entity.Products;
+import com.qikserve.models.entities.Products;
+import org.springframework.http.ResponseEntity;
 
-import java.util.List;
 
 public interface ProductServices {
-    List<Products> getProductList();
+    ResponseEntity<Products[]> getProductList();
+    ResponseEntity<Products> getProductId(String id);
 }
