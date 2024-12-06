@@ -14,7 +14,7 @@ System.out.println("Last Element: " + deque.getLast());
 The hardest part was using the wiremock, I have normally used another type of resource to do the test.
 
 4. What mechanism did you put in place to track down issues in production on this code? If you didn’t put anything, write down what you could do.
-I did’nt put any mechanism to track down issues, ibut  would like to use the Log4j and i can configure the elasticsearch for the MIcroservices.
+I didn't put any mechanism to track down issues, but I  would like to use the Log4j and i can configure the elasticsearch for the MIcroservices.
 
 **5. The Wiremock represents one source of information. We should be prepared to integrate with more sources. List the steps that we would need to take to add more sources of items with different formats and promotions.**<br/>
 Here is the step we can use to add more item sources with different formats and promotions:
@@ -33,7 +33,7 @@ Questions<br/>
 innovation. What problem were you addressing, and what were the outcomes? Why was solving this problem important, and what was the impact of the change?**<br/>
 
 
-PROPERTY EXCHANGE ONLY System. This is the system I developed with Spring boot and react js.The system allows user registration and the inclusion of a property. When including the property, the owner informs the items of interest, the system, through the algorithm, matches properties with similar items and generates the Match. Once Match is made, the user will be able to start a negotiation to exchange property. 
+PROPERTY EXCHANGE ONLY System. This is the system I developed with Spring boot and react js.The system allows user registration and the inclusion they property. When including the property, the owner informs the items of interest, the system, through the algorithm, matches properties with similar items and generates the Match. Once Match is made, the user will be able to start a negotiation to exchange property. 
 The aim of this system is to facilitate the exchange of properties between two owners who do not know each other and who do not need to live in the same location.
 Building the system allowed me to have extensive knowledge about the business model and also get to know the development tools in depth, in this case I used SPring boot on the back and react js on the front.
 
